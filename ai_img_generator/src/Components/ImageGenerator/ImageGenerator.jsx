@@ -11,7 +11,7 @@ export default function ImageGenerator() {
             return 0;
         }
         const responce = await fetch(
-            "https://api.openai.com/v1/images/generations",
+            // "https://api.openai.com/v1/images/generations",
             {
                 method:"POST",
                 headers:{
